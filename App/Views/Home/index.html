@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block body %}
+
+    <h2>Welcome, pls sign in to open User page</h2>
+<form action="login/login" method="POST">
+    <p>Login <label><input type="text" name="autho[]"></label></p>
+    <p>Password <label><input type="password" name="autho[]"></label></p>
+        <input type="submit" value="Sign in">
+</form>
+
+{% endblock %}
